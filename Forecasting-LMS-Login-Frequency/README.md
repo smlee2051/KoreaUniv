@@ -40,28 +40,29 @@ To ensure model robustness, **cross-validation and hyperparameter tuning** were 
 For time-series forecasting, we applied **Rolling Window Cross-Validation** instead of K-Fold Cross-Validation. The model is trained on past data and evaluated on a **7-day prediction horizon**, ensuring that future values are never used in training.
 
 #### **2️⃣ Hyperparameter Tuning**
-Hyperparameter tuning was performed **independently on both the LMS and SIS datasets.**
+Hyperparameter tuning was performed **separately for the LMS and SIS datasets** to optimize model performance.  
+A comprehensive grid search was conducted to fine-tune key hyperparameters, including `batch_size`, `sequence length (seq_len)`, `model dimension (d_model)`, `number of attention heads (n_heads)`, `encoder layers (e_layers)`, and `decoder layers (d_layers)`.
 
 ##### 📌 Best Hyperparameter Configurations (LMS)
 The best configurations obtained from tuning on the **LMS dataset**:
 
 | Model   | Batch Size | Sequence Length | d_model | n_heads | e_layers | d_layers | Validation Loss (LMS) |
 |---------|------------|----------------|---------|---------|---------|---------|----------------------|
-| Model 1 | 8         | 14             | 128     | 16      | 2       | 1       | **0.7510** |
-| Model 2 | 16        | 10             | 512     | 8       | 3       | 2       | **0.7634** |
-| Model 3 | 32        | 12             | 256     | 4       | 4       | 3       | **0.7298** |
+| Transformer | 32         | 14             | 256     | 16      | 2       | 2       | **0.745** |
+| Reformer | 32        | 21             | 1024     | 16       | 2       | 2       | **0.734** |
+| Informer | 8        | 14             | 128     | 16       | 2       | 2       | **0.73** |
+| Autoformer | 8        | 21             | 256     | 16       | 2       | 1       | **0.746** |
 
 ##### 📌 Best Hyperparameter Configurations (SIS)
 The best configurations obtained from tuning on the **SIS dataset**:
 
 | Model   | Batch Size | Sequence Length | d_model | n_heads | e_layers | d_layers | Validation Loss (SIS) |
 |---------|------------|----------------|---------|---------|---------|---------|----------------------|
-| Model 1 | 16        | 12             | 256     | 8       | 3       | 2       | **0.7802** |
-| Model 2 | 32        | 14             | 128     | 16      | 2       | 1       | **0.7425** |
-| Model 3 | 64        | 10             | 512     | 4       | 4       | 3       | **0.7214** |
+| Transformer | 8         | 14             | 128     | 16      | 2       | 1       | **0.59** |
+| Reformer | 8        | 21             | 256     | 16       | 6       | 2       | **0.58** |
+| Informer | 8        | 14             | 128     | 16       | 2       | 2       | **0.585** |
+| Autoformer | 32        | 14             | 128     | 8       | 2       | 1       | **0.594** |
 
-##### 📌 Performance Comparison
-The optimal hyperparameters obtained from **LMS and SIS datasets** resulted in different configurations, indicating dataset-specific tuning effects.  
 
 Detailed tuning logs and configurations are available in:  
 📂 **[`Results/Hyperparameter_Tuning/LMS`](Results/Hyperparameter_Tuning/LMS/)**  
