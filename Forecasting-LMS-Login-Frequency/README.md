@@ -36,3 +36,16 @@ model = Sequential([
 ## 🏆 Conclusion
 
 ## 🔧 Reproducibility
+To ensure the reproducibility of our results, the following computing environment was used:
+
+- **Operating System:** 
+- **CPU:**  
+- **GPU:** 
+- **RAM:** 
+- **Storage:** 
+- **Frameworks & Libraries:**
+  - Python
+  - PyTorch 
+  - TensorFlow
+  - Scikit-learn 
+  - CUDA 
