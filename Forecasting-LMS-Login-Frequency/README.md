@@ -56,8 +56,8 @@ To ensure model robustness, **cross-validation and hyperparameter tuning** were 
 For time-series forecasting, we applied **Rolling Window Cross-Validation** instead of K-Fold Cross-Validation. The model is trained on past data and evaluated on a **7-day prediction horizon**, ensuring that future values are never used in training.
 
 #### **2️⃣ Hyperparameter Tuning**
-Hyperparameter tuning was performed **separately for the LMS and SIS datasets** to optimize model performance.  
-A comprehensive grid search was conducted to fine-tune key hyperparameters, including `batch_size`, `sequence length (seq_len)`, `model dimension (d_model)`, `number of attention heads (n_heads)`, `encoder layers (e_layers)`, and `decoder layers (d_layers)`.  
+Hyperparameter tuning is performed **separately for the LMS and SIS datasets** to optimize model performance.  
+A comprehensive grid search is conducted to fine-tune key hyperparameters, including `batch_size`, `sequence length (seq_len)`, `model dimension (d_model)`, `number of attention heads (n_heads)`, `encoder layers (e_layers)`, and `decoder layers (d_layers)`.  
 All other hyperparameters were set to their default values as specified in the original open-source implementation.  
 
 ##### 📌 Best Hyperparameter Configurations (LMS)
