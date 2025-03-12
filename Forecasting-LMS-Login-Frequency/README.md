@@ -8,8 +8,6 @@
 ## 📌 Abstract
 contents
 
-## 📂 Dataset
-
 ## 🔍 Models Used
 We evaluate the performance of multiple machine learning models for login frequency forecasting.
 The following models were used in this study:
@@ -25,20 +23,18 @@ The following models were used in this study:
   - LLMTIME
   - Time-LLM
 
-## 🔍 Model Validation & Hyperparameter Tuning
-To ensure model robustness, **cross-validation and hyperparameter tuning** were applied.
+## ✅ Empirical data study
 
-### **1️⃣ Cross-Validation Method**
+### **📂 Dataset**
 
-### **2️⃣ Hyperparameter Tuning**
-| Model        | MAE  | RMSE | R² Score |
-|-------------|------|------|----------|
-| Logistic Regression | 4.23 | 5.78 | 0.76 |
-| Random Forest | 3.89 | 4.91 | 0.82 |
-| XGBoost | 3.41 | 4.32 | 0.87 |
-| **LSTM** | **2.98** | **3.89** | **0.91** |
-| Transformer | 3.12 | 4.02 | 0.90 |
-### **3️⃣ Model Architecture**
+### **🔍 Model Validation & Hyperparameter Tuning**
+To ensure model robustness, **cross-validation and hyperparameter tuning** were applied exclusively to Transformer, Reformer, Informer, Autoformer.****
+
+#### **1️⃣ Cross-Validation Method**
+
+#### **2️⃣ Hyperparameter Tuning**
+
+#### **3️⃣ Model Architecture**
 ```python
 model = Sequential([
     LSTM(128, return_sequences=True, input_shape=(timesteps, features)),
