@@ -10,10 +10,20 @@ contents
 
 ## 📂 Dataset
 
-## 🔍 Methodology
-### **1️⃣ Models Used**
-- **Transformer-Based Time Series Forecasting Models:** Transformer, Reformer, Informer, Autoformer
-- **LLM-Based Time Series Forecasting Models:** PromptCast, LLMTIME, Time-LLM
+## 🔍 Models Used
+We evaluate the performance of multiple machine learning models for login frequency prediction.  
+The following models were used in this study:
+
+- **Transformer-Based Time Series Forecasting Models:**
+  - Transformer
+  - Reformer
+  - Informer
+  - Autoformer
+  - 
+- **LLM-Based Time Series Forecasting Models:**
+  - PromptCast
+  - LLMTIME
+  - Time-LLM
 
 ## 🔍 Model Validation & Hyperparameter Tuning
 To ensure model robustness, **cross-validation and hyperparameter tuning** were applied.
