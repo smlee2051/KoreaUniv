@@ -80,15 +80,15 @@ Detailed tuning logs and configurations are available in:
 
 
 ## Conclusion
+contents
 
 ## Reproducibility
 To ensure the reproducibility of our results, the following computing environment was used:
 
 - **Operating System:** 
-- **CPU:**  
-- **GPU:** 
-- **RAM:** 
-- **Storage:** 
+- **CPU:** 16 
+- **GPU:** 2-NVIDIA-RTX-A6000
+- **RAM:** 64
 
 ## Open-Source Code Usage
 This project incorporates open-source code from the following repositories:
