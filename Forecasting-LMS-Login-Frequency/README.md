@@ -49,3 +49,12 @@ To ensure the reproducibility of our results, the following computing environmen
   - TensorFlow
   - Scikit-learn 
   - CUDA 
+
+## 📌 Open-Source Code Usage
+This project incorporates open-source code from the following repositories:
+
+- **[Autoformer](https://github.com/thuml/Autoformer)** - Licensed under **MIT License**.  
+- **[llmtime](https://github.com/ngruver/llmtime)** - Licensed under **MIT License**.  
+- **[Time-LLM](https://github.com/KimMeen/Time-LLM)** -Licensed under **Apache License 2.0**.  
+
+We acknowledge the authors of these repositories for their contributions.
