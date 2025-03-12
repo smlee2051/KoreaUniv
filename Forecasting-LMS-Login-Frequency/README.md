@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  📚 <strong>Published in:</strong>  
+  <strong>Published in:</strong>  
   <br> <em>name</em>  
   <br> [View Paper](https://)
 </p>
