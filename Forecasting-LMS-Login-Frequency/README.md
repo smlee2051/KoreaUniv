@@ -42,7 +42,7 @@ The dataset consists of **77 days of login frequency data** collected from a Lea
 - **Feature Description:** Login frequency per user, Timestamps
 
 ## **🔧 Experimental Setup**
-To ensure the reproducibility of our results, the following computing environment was used:
+To ensure the reproducibility of our results, the following computing environment is used:
 
 - **Computing Environment:** 
 - **GPU:** 2-NVIDIA-RTX-A6000
