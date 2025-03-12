@@ -11,7 +11,7 @@ contents
 ## 📂 Dataset
 
 ## 🔍 Models Used
-We evaluate the performance of multiple machine learning models for login frequency prediction.  
+We evaluate the performance of multiple machine learning models for login frequency forecasting.
 The following models were used in this study:
 
 - **Transformer-Based Time Series Forecasting Models:**
