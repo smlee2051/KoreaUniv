@@ -73,6 +73,11 @@ Detailed tuning logs and configurations are available in:
 - **[`LMS/val_losses_test_Informer.tx`](Results/Hyperparameter_Tuning/LMS/val_losses_test_Informer.txt)** → LMS tuning results for Informer
 - **[`LMS/val_losses_test_Autoformer.tx`](Results/Hyperparameter_Tuning/LMS/val_losses_test_Autoformer.txt)** → LMS tuning results for Autoformer
 
+- **[`SIS/val_losses_test_Transformer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Transformer.txt)** → SIS tuning results for Transformer
+- **[`SIS/val_losses_test_Reformer.tx`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Reformer.txt)** → SIS tuning results for Reformer
+- **[`SIS/val_losses_test_Informer.tx`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Informer.txt)** → SIS tuning results for Informer
+- **[`SIS/val_losses_test_Autoformer.tx`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Autoformer.txt)** → SIS tuning results for Autoformer
+
 
 
 #### **3️⃣ Model Architecture**
