@@ -32,7 +32,7 @@ The dataset consists of **77 days of login frequency data** collected from a Lea
 - **Time Period:** 2023 Fall Semester (77 days)
 - **Number of Users:** 832
 - **Data Type:** Login frequency per user
-  
+
 ### **🔍 Model Validation & Hyperparameter Tuning**
 To ensure model robustness, **cross-validation and hyperparameter tuning** were applied exclusively to Transformer, Reformer, Informer, Autoformer.
 
@@ -62,6 +62,7 @@ The best configurations obtained from tuning on the **SIS dataset**:
 | Reformer | 8        | 21             | 256     | 16       | 6       | 2       | **0.58** |
 | Informer | 8        | 14             | 128     | 16       | 2       | 2       | **0.585** |
 | Autoformer | 32        | 14             | 128     | 8       | 2       | 1       | **0.594** |
+
 
 Detailed tuning logs and configurations are available in:  
 📂 **[`Results/Hyperparameter_Tuning/LMS`](Results/Hyperparameter_Tuning/LMS/)**  
