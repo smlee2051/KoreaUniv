@@ -25,14 +25,22 @@ The following models were used in this study:
 
 ## Empirical data study
 
-### **📂 Dataset**
+### **📂 Dataset Description**
 The dataset consists of **77 days of login frequency data** collected from a Learning Management System (LMS) during the **2023 Fall semester**. The dataset includes login activity records for **832 users**.
 
-- **Source:** LMS , SIS
+- **Data Source:** LMS , SIS
 - **Time Period:** 2023 Fall Semester (77 days)
 - **Number of Users:** 832
-- **Data Type:** Login frequency per user
+- **Feature Description:** Login frequency per user, Timestamps
 
+## **🔧 Experimental Setup**
+To ensure the reproducibility of our results, the following computing environment was used:
+
+- **Computing Environment:** 
+- **GPU:** 2-NVIDIA-RTX-A6000
+- **CPU:** 16 
+- **RAM:** 64
+  
 ### **🔍 Model Validation & Hyperparameter Tuning**
 To ensure model robustness, **cross-validation and hyperparameter tuning** were applied exclusively to Transformer, Reformer, Informer, Autoformer.
 
@@ -78,17 +86,11 @@ Detailed tuning logs and configurations are available in:
 - **[`SIS/val_losses_test_Informer.tx`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Informer.txt)** → SIS tuning results for Informer
 - **[`SIS/val_losses_test_Autoformer.tx`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Autoformer.txt)** → SIS tuning results for Autoformer
 
+### **📌 Results & Discussion**
+- Performance Comparison Table
 
 ## Conclusion
 contents
-
-## Reproducibility
-To ensure the reproducibility of our results, the following computing environment was used:
-
-- **Operating System:** 
-- **CPU:** 16 
-- **GPU:** 2-NVIDIA-RTX-A6000
-- **RAM:** 64
 
 ## Open-Source Code Usage
 This project incorporates open-source code from the following repositories:
