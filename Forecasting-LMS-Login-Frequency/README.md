@@ -19,7 +19,7 @@ The following models were used in this study:
   - Reformer
   - Informer
   - Autoformer
-  - 
+    
 - **LLM-Based Time Series Forecasting Models:**
   - PromptCast
   - LLMTIME
