@@ -5,10 +5,10 @@
 ² Korea University, New Energy Industry Convergence and Open Sharing System  
 **Journal:** KDISS 2025
 
-## 📌 Abstract
+## Abstract
 contents
 
-## 🔍 Models Used
+## Models Used
 We evaluate the performance of multiple machine learning models for login frequency forecasting.
 The following models were used in this study:
 
@@ -23,7 +23,7 @@ The following models were used in this study:
   - LLMTIME
   - Time-LLM
 
-## ✅ Empirical data study
+## Empirical data study
 
 ### **📂 Dataset**
 The dataset consists of **77 days of login frequency data** collected from a Learning Management System (LMS) during the **2023 Fall semester**. The dataset includes login activity records for **500 users**.
@@ -86,9 +86,9 @@ model = Sequential([
 ])
 ```
 
-## 🏆 Conclusion
+## Conclusion
 
-## 🔧 Reproducibility
+## Reproducibility
 To ensure the reproducibility of our results, the following computing environment was used:
 
 - **Operating System:** 
@@ -97,7 +97,7 @@ To ensure the reproducibility of our results, the following computing environmen
 - **RAM:** 
 - **Storage:** 
 
-## 🔧 Open-Source Code Usage
+## Open-Source Code Usage
 This project incorporates open-source code from the following repositories:
 
 - **[Autoformer](https://github.com/thuml/Autoformer)** - Licensed under **MIT License**.  
