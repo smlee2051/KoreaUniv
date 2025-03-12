@@ -26,11 +26,18 @@ The following models were used in this study:
 ## ✅ Empirical data study
 
 ### **📂 Dataset**
+The dataset consists of **77 days of login frequency data** collected from a Learning Management System (LMS) during the **2023 Fall semester**. The dataset includes login activity records for **500 users**.
 
+- **Source:** LMS , SIS
+- **Time Period:** 2023 Fall Semester (77 days)
+- **Number of Users:** 832
+- **Data Type:** Login frequency per user
+  
 ### **🔍 Model Validation & Hyperparameter Tuning**
-To ensure model robustness, **cross-validation and hyperparameter tuning** were applied exclusively to Transformer, Reformer, Informer, Autoformer.****
+To ensure model robustness, **cross-validation and hyperparameter tuning** were applied exclusively to Transformer, Reformer, Informer, Autoformer.
 
 #### **1️⃣ Cross-Validation Method**
+For time-series forecasting, we applied **Rolling Window Cross-Validation** instead of K-Fold Cross-Validation. The model is trained on past data and evaluated on a **7-day prediction horizon**, ensuring that future values are never used in training.
 
 #### **2️⃣ Hyperparameter Tuning**
 
