@@ -63,7 +63,6 @@ The best configurations obtained from tuning on the **SIS dataset**:
 | Informer | 8        | 14             | 128     | 16       | 2       | 2       | **0.585** |
 | Autoformer | 32        | 14             | 128     | 8       | 2       | 1       | **0.594** |
 
-
 Detailed tuning logs and configurations are available in:  
 📂 **[`Results/Hyperparameter_Tuning/LMS`](Results/Hyperparameter_Tuning/LMS/)**  
 📂 **[`Results/Hyperparameter_Tuning/SIS`](Results/Hyperparameter_Tuning/SIS/)**  
@@ -78,18 +77,6 @@ Detailed tuning logs and configurations are available in:
 - **[`SIS/val_losses_test_Informer.tx`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Informer.txt)** → SIS tuning results for Informer
 - **[`SIS/val_losses_test_Autoformer.tx`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Autoformer.txt)** → SIS tuning results for Autoformer
 
-
-
-#### **3️⃣ Model Architecture**
-```python
-model = Sequential([
-    LSTM(128, return_sequences=True, input_shape=(timesteps, features)),
-    Dropout(0.2),
-    LSTM(64, return_sequences=False),
-    Dense(32, activation='relu'),
-    Dense(1, activation='linear')
-])
-```
 
 ## Conclusion
 
