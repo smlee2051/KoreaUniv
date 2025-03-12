@@ -43,12 +43,6 @@ To ensure the reproducibility of our results, the following computing environmen
 - **GPU:** 
 - **RAM:** 
 - **Storage:** 
-- **Frameworks & Libraries:**
-  - Python
-  - PyTorch 
-  - TensorFlow
-  - Scikit-learn 
-  - CUDA 
 
 ## 📌 Open-Source Code Usage
 This project incorporates open-source code from the following repositories:
