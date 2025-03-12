@@ -49,7 +49,8 @@ For time-series forecasting, we applied **Rolling Window Cross-Validation** inst
 
 #### **2️⃣ Hyperparameter Tuning**
 Hyperparameter tuning was performed **separately for the LMS and SIS datasets** to optimize model performance.  
-A comprehensive grid search was conducted to fine-tune key hyperparameters, including `batch_size`, `sequence length (seq_len)`, `model dimension (d_model)`, `number of attention heads (n_heads)`, `encoder layers (e_layers)`, and `decoder layers (d_layers)`.
+A comprehensive grid search was conducted to fine-tune key hyperparameters, including `batch_size`, `sequence length (seq_len)`, `model dimension (d_model)`, `number of attention heads (n_heads)`, `encoder layers (e_layers)`, and `decoder layers (d_layers)`.  
+All other hyperparameters were set to their default values as specified in the original open-source implementation.  
 
 ##### 📌 Best Hyperparameter Configurations (LMS)
 The best configurations obtained from tuning on the **LMS dataset**:
