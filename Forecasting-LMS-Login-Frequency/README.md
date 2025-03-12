@@ -1,5 +1,12 @@
 <h1 align="center">Comparison of Transformer and LLM Performance and <br> Forecasting LMS Login Frequency</h1>
 
+<p align="center">
+  <strong>🖊 Authors:</strong>  
+  <br> Seonmi Lee<sup>1,2</sup>, Yoonsuh Jung<sup>1</sup>
+  <br> <sup>1</sup> Korea University, Department of Statistics  
+  <sup>2</sup> Korea University, New Energy Industry Convergence and Open Sharing System  
+</p>
+
 **Authors:** Seonmi Lee<sup>1, 2</sup>, Yoonsuh Jung<sup>1</sup>  
 **Affiliations:**  
 ¹ Korea University, Department of Statistics  
