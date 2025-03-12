@@ -40,6 +40,13 @@ To ensure model robustness, **cross-validation and hyperparameter tuning** were 
 For time-series forecasting, we applied **Rolling Window Cross-Validation** instead of K-Fold Cross-Validation. The model is trained on past data and evaluated on a **7-day prediction horizon**, ensuring that future values are never used in training.
 
 #### **2️⃣ Hyperparameter Tuning**
+Hyperparameter tuning was performed **only for Transformer, Reformer, Informer and Autoformer**
+
+##### 📌 Results Directory
+The complete tuning results are stored in the [`Results/Hyperparameter_Tuning`](Results/Hyperparameter_Tuning/) directory.
+
+- **[`val_losses_test_Transformer.txt`](Results/Hyperparameter_Tuning/val_losses_test_Transformer.txt)** → Tuning results for Transformer
+- **[`val_losses_test_Reformer.tx`](Results/Hyperparameter_Tuning/val_losses_test_Reformer.txt)** → Tuning results for Reformer
 
 #### **3️⃣ Model Architecture**
 ```python
