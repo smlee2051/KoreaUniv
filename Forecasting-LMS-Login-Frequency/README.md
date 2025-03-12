@@ -1,4 +1,4 @@
-# 📄 [Comparison of Transformer and LLM Performance and Forecasting LMS Login Frequency]
+# Comparison of Transformer and LLM Performance and Forecasting LMS Login Frequency
 **Authors:** Seonmi Lee<sup>1, 2</sup>, Yoonsuh Jung<sup>1</sup>  
 **Affiliations:**  
 ¹ Korea University, Department of Statistics  
