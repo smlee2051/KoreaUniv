@@ -1,6 +1,9 @@
 # 📄 [Comparison of Transformer and LLM Performance and Forecasting LMS Login Frequency]
-**Authors:** Seonmi Lee, Yoonsuh Jung
-**Conference / Journal:** KDISS 2025
+**Authors:** Seonmi Lee<sup>1, 2</sup>, Yoonsuh Jung<sup>2</sup> 
+**Affiliations:**  
+¹ Korea University, Department of Statistics, Seoul, South Korea  
+² Korea University, New Energy Industry Convergence and Open Sharing System
+**Journal:** KDISS 2025
 
 ## 📌 Abstract
 contents
@@ -9,9 +12,9 @@ contents
 
 ## 🔍 Methodology
 ### **1️⃣ Models Used**
-- **Baseline Model:** Random Forest  
-- **Deep Learning Model:** LSTM with Attention Mechanism  
-- 
+- **Transformer-Based Time Series Forecasting Models:** Transformer, Reformer, Informer, Autoformer
+- **LLM-Based Time Series Forecasting Models:** PromptCast, LLMTIME, Time-LLM
+
 ## 🔍 Model Validation & Hyperparameter Tuning
 To ensure model robustness, **cross-validation and hyperparameter tuning** were applied.
 
