@@ -1,4 +1,4 @@
-<h1 align="center">Comparison of Transformer and LLM Performance and Forecasting LMS Login Frequency</h1>
+<h1 align="center">Comparison of Transformer and LLM Performance and <br> Forecasting LMS Login Frequency</h1>
 
 **Authors:** Seonmi Lee<sup>1, 2</sup>, Yoonsuh Jung<sup>1</sup>  
 **Affiliations:**  
