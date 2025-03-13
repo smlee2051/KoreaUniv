@@ -96,7 +96,7 @@ Detailed tuning logs and configurations are available in:
 - **[`SIS/val_losses_test_Autoformer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Autoformer.txt)** → SIS tuning results for Autoformer
 
 ### **📌 Results & Discussion**
-- Performance Comparison Table
+- Table of Performance Comparison
 
 ## Conclusion
 contents
