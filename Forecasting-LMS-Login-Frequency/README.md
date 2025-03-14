@@ -39,7 +39,8 @@ This study utilizes **login frequency data** collected from a LMS and a SIS.
 - **Data Source:** LMS & SIS logs
 - **Time Period:** 2023 Fall Semester (77 days)
 - **Number of Users:** 832
-- **Feature Description:** Login frequency per user, Timestamps  
+- **Feature Description:** Login frequency per user, Timestamps
+  
 📌 **Data Availability:**  
 Due to privacy regulations, this dataset **cannot be publicly shared**.
 
