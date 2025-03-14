@@ -34,12 +34,14 @@ The following models were used in this study:
 ## Empirical data study
 
 ### **📂 Dataset Description**
-The dataset consists of **77 days of login frequency data** collected from a Learning Management System (LMS) during the **2023 Fall semester**. The dataset includes login activity records for **832 users**.
+This study utilizes **login frequency data** collected from a LMS and a SIS. 
 
-- **Data Source:** LMS , SIS
+- **Data Source:** LMS & SIS logs
 - **Time Period:** 2023 Fall Semester (77 days)
 - **Number of Users:** 832
 - **Feature Description:** Login frequency per user, Timestamps
+📌 **Data Availability:**  
+Due to privacy regulations, this dataset **cannot be publicly shared**.
 
 ## **🔧 Experimental Setup**
 To ensure the reproducibility of our results, the following computing environment is used:
