@@ -49,8 +49,8 @@ To ensure the reproducibility of our results, the following computing environmen
 
 - **Computing Environment:** 
 - **GPU:** 2-NVIDIA-RTX-A6000
-- **CPU:** 16 
-- **RAM:** 64
+- **CPU:** 16-core
+- **RAM:** 64GB
   
 ### **🔍 Model Validation & Hyperparameter Tuning**
 To ensure model robustness, **cross-validation and hyperparameter tuning** were applied exclusively to Transformer, Reformer, Informer, Autoformer.
