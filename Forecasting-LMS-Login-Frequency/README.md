@@ -99,6 +99,9 @@ Detailed tuning logs and configurations are available in:
 
 ### **📌 Results**
 - Comparison of Model Performance and Computing Time in Predicting Logins on the LMS Platform
+  <details>
+  <summary>Click to show table</summary>
+
   | Models             | Performance indicator | Mean of 7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing time (min) |
   |--------------------|-----|------ |-------|-------|-------|-------|-------|-------|-------|-----------|
   | Transformer        | MSE ㅊ 1.474 | 1.036 | 0.849 | 1.243 | 2.143 | 1.840 | 1.893 | 1.316 |  1375.333 |
@@ -122,7 +125,11 @@ Detailed tuning logs and configurations are available in:
   | Time-LLM LLAMA     | MSE | 1.849 | 1.201 | 0.954 | 1.505 | 2.989 | 2.425 | 2.209 | 1.660 | 88.267    |
   |                    | NAE | 0.686 | 0.53 | 0.411 | 0.651 | 0.977 | 0.844 | 0.704 | 0.686 |            |
   
+  </details>
 - Comparison of Model Performance and Computing Time in Predicting Logins on the SIS Platform
+  <details>
+  <summary>Click to show table</summary>
+    
   | Models             | Performance indicator | Mean of 7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing time (min) |
   |--------------------|-----|----------------|-------|-------|-------|-------|-------|-------|-------|----------------------|
   | Transformer        | MSE | 1.088 | 0.834 | 0.671 | 0.931 | 1.741 | 1.423 | 1.093 | 0.923 | 1107.150 |
@@ -145,7 +152,8 @@ Detailed tuning logs and configurations are available in:
   |                    | NAE | 0.649 | 0.533 | 0.387 | 0.595 | 0.928 | 0.792 | 0.675 | 0.635 |          |
   | Time-LLM LLAMA     | MSE | 1.445 | 1.008 | 0.748 | 1.205 | 2.478 | 1.948 | 1.453 | 1.271 | 97.350   |
   |                    | NAE | 0.651 | 0.529 | 0.377 | 0.610 | 0.924 | 0.799 | 0.675 | 0.642 |          |
-  
+
+  <details>
 ## Conclusion
 contents
 
