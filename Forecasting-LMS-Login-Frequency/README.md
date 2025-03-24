@@ -102,7 +102,7 @@ Detailed tuning logs and configurations are available in:
   <details>
   <summary>Click to show table</summary>
 
-  | Models             | Metrics | Mean of 7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing<br>time<br>(min) |
+  | Models             | Metrics | Mean of<br7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing<br>time (min) |
   |--------------------|-----|------ |-------|-------|-------|-------|-------|-------|-------|-----------|
   | Transformer        | MSE | 1.474 | 1.036 | 0.849 | 1.243 | 2.143 | 1.840 | 1.893 | 1.316 |  1375.333 |
   |                    | NAE | 0.670 | 0.558 | 0.457 | 0.596 | 0.917 | 0.823 | 0.698 | 0.643 |           |
@@ -130,7 +130,7 @@ Detailed tuning logs and configurations are available in:
   <details>
   <summary>Click to show table</summary>
     
-  | Models             | Metrics | Mean of 7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing time (min) |
+  | Models             | Metrics | Mean of<br7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing<brtime (min) |
   |--------------------|-----|----------------|-------|-------|-------|-------|-------|-------|-------|----------------------|
   | Transformer        | MSE | 1.088 | 0.834 | 0.671 | 0.931 | 1.741 | 1.423 | 1.093 | 0.923 | 1107.150 |
   |                    | NAE | 0.631 | 0.496 | 0.406 | 0.570 | 0.825 | 0.804 | 0.700 | 0.614 |          |
