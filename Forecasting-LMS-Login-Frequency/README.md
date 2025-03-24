@@ -101,7 +101,7 @@ Detailed tuning logs and configurations are available in:
 - Comparison of Model Performance and Computing Time in Predicting Logins on the LMS Platform
   | Models             | Performance indicator | Mean of 7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing time (min) |
   |--------------------|-----|------ |-------|-------|-------|-------|-------|-------|-------|-----------|
-  | Transformer        | MSE | 1.474 | 1.036 | 0.849 | 1.243 | 2.143 | 1.840 | 1.893 | 1.316 |  1375.333 |
+  | Transformer        | MSE ㅊ 1.474 | 1.036 | 0.849 | 1.243 | 2.143 | 1.840 | 1.893 | 1.316 |  1375.333 |
   |                    | NAE | 0.670 | 0.558 | 0.457 | 0.596 | 0.917 | 0.823 | 0.698 | 0.643 |           |
   | Reformer           | MSE | 1.489 | 1.026 | 0.833 | 1.280 | 2.111 | 1.898 | 1.911 | 1.365 | 982.283   |
   |                    | NAE | 0.647 | 0.548 | 0.429 | 0.590 | 0.868 | 0.790 | 0.678 | 0.625 |           |
@@ -125,26 +125,26 @@ Detailed tuning logs and configurations are available in:
 - Comparison of Model Performance and Computing Time in Predicting Logins on the SIS Platform
   | Models             | Performance indicator | Mean of 7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing time (min) |
   |--------------------|-----|----------------|-------|-------|-------|-------|-------|-------|-------|----------------------|
-  | Transformer        | MSE | 
-  |                    | NAE |
-  | Reformer           | MSE | 
-  |                    | NAE | 
-  | Informer           | MSE | 
-  |                    | NAE | 
-  | Autoformer         | MSE | 
-  |                    | NAE |
-  | PromptCast GPT-3.5 | MSE |
-  |                    | NAE |
-  | LLMTIME GPT-3.5    | MSE |
-  |                    | NAE |
-  | LLMTIME GPT-4o     | MSE |
-  |                    | NAE |
-  | Time-LLM BERT      | MSE |
-  |                    | NAE |
-  | Time-LLM GPT-2     | MSE |
-  |                    | NAE |
-  | Time-LLM LLAMA     | MSE |
-  |                    | NAE |
+  | Transformer        | MSE | 1.088 | 0.834 | 0.671 | 0.931 | 1.741 | 1.423 | 1.093 | 0.923 | 1107.150 |
+  |                    | NAE | 0.631 | 0.496 | 0.406 | 0.570 | 0.825 | 0.804 | 0.700 | 0.614 |          |
+  | Reformer           | MSE | 1.109 | 0.843 | 0.689 | 0.886 | 1.739 | 1.516 | 1.122 | 0.97  | 1043.967 |
+  |                    | NAE | 0.606 | 0.487 | 0.402 | 0.543 | 0.794 | 0.761 | 0.652 | 0.599 |          |
+  | Informer           | MSE | 1.088 | 0.814 | 0.657 | 0.946 | 1.757 | 1.424 | 1.076 | 0.942 | 732.533  |
+  |                    | NAE | 0.629 | 0.480 | 0.399 | 0.570 | 0.839 | 0.802 | 0.710 | 0.605 |          |
+  | Autoformer         | MSE | 1.111 | 0.836 | 0.648 | 0.892 | 1.787 | 1.464 | 1.159 | 0.993 | 1068.300 |
+  |                    | NAE | 0.617 | 0.501 | 0.381 | 0.545 | 0.837 | 0.758 | 0.692 | 0.602 |          |
+  | PromptCast GPT-3.5 | MSE | 2.052 | 1.714 | 1.740 | 1.708 | 2.483 | 2.245 | 2.572 | 1.905 | 20.150   |
+  |                    | NAE | 0.994 | 0.975 | 1.024 | 0.969 | 1.057 | 1.011 | 0.972 | 0.951 |          |
+  | LLMTIME GPT-3.5    | MSE | 1.776 | 1.433 | 1.181 | 1.547 | 2.651 | 2.195 | 2.093 | 1.335 | 19.600   |
+  |                    | NAE | 0.752 | 0.676 | 0.607 | 0.749 | 0.947 | 0.870 | 0.743 | 0.672 |          |
+  | LLMTIME GPT-4o     | MSE | 1.944 | 1.696 | 1.406 | 1.690 | 2.623 | 2.190 | 2.324 | 1.676 | 32.483   |
+  |                    | NAE | 0.828 | 0.800 | 0.657 | 0.808 | 0.975 | 0.877 | 0.854 | 0.823 |          |
+  | Time-LLM BERT      | MSE | 1.459 | 1.035 | 0.767 | 1.187 | 2.508 | 1.947 | 1.454 | 1.312 | 19.617   |
+  |                    | NAE | 0.658 | 0.543 | 0.394 | 0.601 | 0.935 | 0.793 | 0.676 | 0.664 |          |
+  | Time-LLM GPT-2     | MSE | 1.442 | 1.005 | 0.760 | 1.186 | 2.494 | 1.943 | 1.455 | 1.252 | 16.367   |
+  |                    | NAE | 0.649 | 0.533 | 0.387 | 0.595 | 0.928 | 0.792 | 0.675 | 0.635 |          |
+  | Time-LLM LLAMA     | MSE | 1.445 | 1.008 | 0.748 | 1.205 | 2.478 | 1.948 | 1.453 | 1.271 | 97.350   |
+  |                    | NAE | 0.651 | 0.529 | 0.377 | 0.610 | 0.924 | 0.799 | 0.675 | 0.642 |          |
   
 ## Conclusion
 contents
