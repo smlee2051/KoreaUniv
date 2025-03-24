@@ -84,19 +84,23 @@ The best configurations obtained from tuning on the **SIS dataset**:
 
 
 Detailed tuning logs and configurations are available in:  
-📂 **[`Results/Hyperparameter_Tuning/LMS`](Results/Hyperparameter_Tuning/LMS/)**  
-📂 **[`Results/Hyperparameter_Tuning/SIS`](Results/Hyperparameter_Tuning/SIS/)**  
-
-- **[`LMS/val_losses_test_Transformer.txt`](Results/Hyperparameter_Tuning/LMS/val_losses_test_Transformer.txt)** → LMS tuning results for Transformer
-- **[`LMS/val_losses_test_Reformer.txt`](Results/Hyperparameter_Tuning/LMS/val_losses_test_Reformer.txt)** → LMS tuning results for Reformer
-- **[`LMS/val_losses_test_Informer.txt`](Results/Hyperparameter_Tuning/LMS/val_losses_test_Informer.txt)** → LMS tuning results for Informer
-- **[`LMS/val_losses_test_Autoformer.txt`](Results/Hyperparameter_Tuning/LMS/val_losses_test_Autoformer.txt)** → LMS tuning results for Autoformer
-
-- **[`SIS/val_losses_test_Transformer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Transformer.txt)** → SIS tuning results for Transformer
-- **[`SIS/val_losses_test_Reformer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Reformer.txt)** → SIS tuning results for Reformer
-- **[`SIS/val_losses_test_Informer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Informer.txt)** → SIS tuning results for Informer
-- **[`SIS/val_losses_test_Autoformer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Autoformer.txt)** → SIS tuning results for Autoformer
-
+- 📂 **[`Results/Hyperparameter_Tuning/LMS`](Results/Hyperparameter_Tuning/LMS/)**
+- 📂 **[`Results/Hyperparameter_Tuning/SIS`](Results/Hyperparameter_Tuning/SIS/)**
+  <details>
+  <summary>Click to view files</summary>
+    
+  - **[`LMS/val_losses_test_Transformer.txt`](Results/Hyperparameter_Tuning/LMS/val_losses_test_Transformer.txt)** → LMS tuning results for Transformer
+  - **[`LMS/val_losses_test_Reformer.txt`](Results/Hyperparameter_Tuning/LMS/val_losses_test_Reformer.txt)** → LMS tuning results for Reformer
+  - **[`LMS/val_losses_test_Informer.txt`](Results/Hyperparameter_Tuning/LMS/val_losses_test_Informer.txt)** → LMS tuning results for Informer
+  - **[`LMS/val_losses_test_Autoformer.txt`](Results/Hyperparameter_Tuning/LMS/val_losses_test_Autoformer.txt)** → LMS tuning results for Autoformer
+  
+  - **[`SIS/val_losses_test_Transformer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Transformer.txt)** → SIS tuning results for Transformer
+  - **[`SIS/val_losses_test_Reformer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Reformer.txt)** → SIS tuning results for Reformer
+  - **[`SIS/val_losses_test_Informer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Informer.txt)** → SIS tuning results for Informer
+  - **[`SIS/val_losses_test_Autoformer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Autoformer.txt)** → SIS tuning results for Autoformer
+    
+  <details>
+  
 ### **📌 Results**
 - Comparison of Model Performance and Computing Time in Predicting Logins on the LMS Platform
   <details>
