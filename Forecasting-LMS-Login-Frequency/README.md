@@ -155,7 +155,10 @@ Detailed tuning logs and configurations are available in:
 
   <details>
 ## Conclusion
-contents
+- Transformer-based models outperform LLM-based models in predictive accuracy; however, they require significantly longer computational time. 
+- Within LLM-based models, Time-LLM demonstrates the highest predictive accuracy.
+- In LLMTIME, GPT-3.5 outperforms GPT-4o in both predictive accuracy and computational efficiency.
+- The daily login prediction analysis reveals no consistent patterns across models or datasets.
 
 ## Open-Source Code Usage
 This project incorporates open-source code from the following repositories:
