@@ -14,7 +14,7 @@
 </p>
 
 ## Abstract
-This study introduces two categories of time series forecasting models: Transformer-based models (Transformer, Reformer, Informer, and Autoformer) and LLM-based models (PromptCast, LLMTIME, and Time-LLM). They have been actively researched as solutions to address the long-term dependency issues and computational costs arising from the lack of data parallelization in traditional time series models. These models are applied to predict login frequency on platforms used by universities for academic credit exchange, enabling a comparative analysis of their predictive performance. The results indicate that Transformer-based models generally achieve superior forecasting performance compared to LLM-based models; however, they also require significantly longer computational time. Specifically, the LLM-based models were implemented using GPT-3.5 and GPT-4o.
+This study introduces a Transformer-based time series model and an LLM-based time series model, and applies these models to predict LMS login frequency.
 
 ## Models Used
 We evaluate the performance of multiple machine learning models for login frequency forecasting.
