@@ -41,10 +41,10 @@ This study utilizes **login frequency data** collected from a LMS and a SIS.
 - **Number of Users:** 832
 - **Feature Description:** Login frequency per user, Timestamps
   
-##### 📌 **Data Availability:**
+##### **Data Availability:**
 Due to privacy regulations, this dataset **cannot be publicly shared**.
 
-## **🔧 Experimental Setup**
+### **🔧 Experimental Setup**
 To ensure the reproducibility of our results, the following computing environment is used:
 
 - **GPU:** 2-NVIDIA-RTX-A6000
@@ -62,7 +62,7 @@ Hyperparameter tuning is performed **separately for the LMS and SIS datasets** t
 A comprehensive grid search is conducted to fine-tune key hyperparameters, including `batch_size`, `sequence length (seq_len)`, `model dimension (d_model)`, `number of attention heads (n_heads)`, `encoder layers (e_layers)`, and `decoder layers (d_layers)`.  
 All other hyperparameters were set to their default values as specified in the original open-source implementation.  
 
-##### 📌 Best Hyperparameter Configurations (LMS)
+##### Best Hyperparameter Configurations (LMS)
 The best configurations obtained from tuning on the **LMS dataset**:
 
 | Model   | Batch Size | Sequence Length | d_model | n_heads | e_layers | d_layers | Validation Loss (LMS) |
@@ -72,7 +72,7 @@ The best configurations obtained from tuning on the **LMS dataset**:
 | Informer | 8        | 14             | 128     | 16       | 2       | 2       | **0.73** |
 | Autoformer | 8        | 21             | 256     | 16       | 2       | 1       | **0.746** |
 
-##### 📌 Best Hyperparameter Configurations (SIS)
+##### Best Hyperparameter Configurations (SIS)
 The best configurations obtained from tuning on the **SIS dataset**:
 
 | Model   | Batch Size | Sequence Length | d_model | n_heads | e_layers | d_layers | Validation Loss (SIS) |
@@ -84,8 +84,8 @@ The best configurations obtained from tuning on the **SIS dataset**:
 
 
 Detailed tuning logs and configurations are available in:  
-- 📂 **[`Results/Hyperparameter_Tuning/LMS`](Results/Hyperparameter_Tuning/LMS/)**
-- 📂 **[`Results/Hyperparameter_Tuning/SIS`](Results/Hyperparameter_Tuning/SIS/)**
+- ➡️ **[`Results/Hyperparameter_Tuning/LMS`](Results/Hyperparameter_Tuning/LMS/)**
+- ➡️ **[`Results/Hyperparameter_Tuning/SIS`](Results/Hyperparameter_Tuning/SIS/)**
   <details>
   <summary>Click to view files</summary>
     
