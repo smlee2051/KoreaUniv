@@ -100,14 +100,40 @@ Detailed tuning logs and configurations are available in:
 ### **📌 Results**
 - Comparison of Model Performance and Computing Time in Predicting Logins on the LMS Platform
   | Models             | Performance indicator | Mean of 7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing time (min) |
+  |--------------------|-----|------ |-------|-------|-------|-------|-------|-------|-------|-----------|
+  | Transformer        | MSE | 1.474 | 1.036 | 0.849 | 1.243 | 2.143 | 1.840 | 1.893 | 1.316 |  1375.333 |
+  |                    | NAE | 0.670 | 0.558 | 0.457 | 0.596 | 0.917 | 0.823 | 0.698 | 0.643 |           |
+  | Reformer           | MSE | 1.489 | 1.026 | 0.833 | 1.280 | 2.111 | 1.898 | 1.911 | 1.365 | 982.283   |
+  |                    | NAE | 0.647 | 0.548 | 0.429 | 0.590 | 0.868 | 0.790 | 0.678 | 0.625 |           |
+  | Informer           | MSE | 1.478 | 1.055 | 0.864 | 1.224 | 2.218 | 1.834 | 1.871 | 1.276 | 893.867   |
+  |                    | NAE | 0.692 | 0.546 | 0.448 | 0.587 | 0.903 | 0.846 | 0.794 | 0.719 |           |
+  | Autoformer         | MSE | 1.475 | 1.008 | 0.858 | 1.150 | 2.213 | 1.894 | 1.911 | 1.291 | 951.500   |
+  |                    | NAE | 0.660 | 0.511 | 0.462 | 0.593 | 0.881 | 0.820 | 0.712 | 0.644 |           |
+  |--------------------|-----|------ |-------|-------|-------|-------|-------|-------|-------|-----------|
+  | PromptCast GPT-3.5 | MSE | 2.070 | 1.917 | 1.91 | 1.791 | 2.653 | 2.143 | 2.347 | 1.732 | 19.917     |
+  |                    | NAE | 0.997 | 1.004 | 1.056 | 0.981 | 1.078 | 0.980 | 0.960 | 0.917 |           |
+  | LLMTIME GPT-3.5    | MSE | 1.944 | 1.738 | 1.504 | 1.703 | 2.736 | 2.279 | 2.167 | 1.480 | 21.283    |
+  |                    | NAE | 0.766 | 0.690 | 0.641 | 0.782 | 0.957 | 0.861 | 0.744 | 0.686 |           |
+  | LLMTIME GPT-4o     | MSE | 2.368 | 2.160 | 1.657 | 2.478 | 3.031 | 2.636 | 2.556 | 2.060 | 35.133    |
+  |                    | NAE | 0.884 | 0.898 | 0.703 | 0.875 | 0.998 | 0.929 | 0.862 | 0.921 |           |
+  | Time-LLM BERT      | MSE | 1.855 | 1.221 | 0.945 | 1.480 | 3.031 | 2.419 | 2.234 | 1.651 | 15.850    |
+  |                    | NAE | 0.689 | 0.538 | 0.409 | 0.643 | 0.988 | 0.845 | 0.710 | 0.69 |            |
+  | Time-LLM GPT-2     | MSE | 1.855 | 1.203 | 0.930 | 1.507 | 3.014 | 2.454 | 2.236 | 1.643 | 15.817    |
+  |                    | NAE | 0.688 | 0.53 | 0.406 | 0.649 | 0.986 | 0.844 | 0.714 | 0.684 |            |
+  | Time-LLM LLAMA     | MSE | 1.849 | 1.201 | 0.954 | 1.505 | 2.989 | 2.425 | 2.209 | 1.660 | 88.267    |
+  |                    | NAE | 0.686 | 0.53 | 0.411 | 0.651 | 0.977 | 0.844 | 0.704 | 0.686 |            |
+  |--------------------|-----|------ |-------|-------|-------|-------|-------|-------|-------|-----------|
+  
+- Comparison of Model Performance and Computing Time in Predicting Logins on the SIS Platform
+  | Models             | Performance indicator | Mean of 7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing time (min) |
   |--------------------|-----|----------------|-------|-------|-------|-------|-------|-------|-------|----------------------|
-  | Transformer        | MSE |
+  | Transformer        | MSE | 
   |                    | NAE |
-  | Reformer           | MSE |
-  |                    | NAE |
-  | Informer           | MSE |
-  |                    | NAE |
-  | Autoformer         | MSE |
+  | Reformer           | MSE | 
+  |                    | NAE | 
+  | Informer           | MSE | 
+  |                    | NAE | 
+  | Autoformer         | MSE | 
   |                    | NAE |
   | PromptCast GPT-3.5 | MSE |
   |                    | NAE |
@@ -122,8 +148,6 @@ Detailed tuning logs and configurations are available in:
   | Time-LLM LLAMA     | MSE |
   |                    | NAE |
   
-- Comparison of Model Performance and Computing Time in Predicting Logins on the SIS Platform
-
 ## Conclusion
 contents
 
