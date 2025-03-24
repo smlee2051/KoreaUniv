@@ -17,8 +17,8 @@
 This study introduces a Transformer-based time series model and an LLM-based time series model, and applies these models to predict LMS login frequency.
 
 ## Models Used
-We evaluate the performance of multiple machine learning models for login frequency forecasting.
-The following models were used in this study:
+We evaluate the performance of several machine learning models for login frequency forecasting.
+The models considered in this study include the following:
 
 - **Transformer-Based Time Series Models:**
   - Transformer
