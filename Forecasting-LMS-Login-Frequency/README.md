@@ -99,9 +99,28 @@ Detailed tuning logs and configurations are available in:
 
 ### **📌 Results**
 - Comparison of Model Performance and Computing Time in Predicting Logins on the LMS Platform
-  | Models  | Performance indicator | Mean of 7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing time (min) |
-  |---------------|-----------------------|----------------|-------|-------|-------|-------|-------|-------|-------|----------------------|
-  | Transformer
+  | Models             | Performance indicator | Mean of 7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing time (min) |
+  |--------------------|-----|----------------|-------|-------|-------|-------|-------|-------|-------|----------------------|
+  | Transformer        | MSE |
+  |                    | NAE |
+  | Reformer           | MSE |
+  |                    | NAE |
+  | Informer           | MSE |
+  |                    | NAE |
+  | Autoformer         | MSE |
+  |                    | NAE |
+  | PromptCast GPT-3.5 | MSE |
+  |                    | NAE |
+  | LLMTIME GPT-3.5    | MSE |
+  |                    | NAE |
+  | LLMTIME GPT-4o     | MSE |
+  |                    | NAE |
+  | Time-LLM BERT      | MSE |
+  |                    | NAE |
+  | Time-LLM GPT-2     | MSE |
+  |                    | NAE |
+  | Time-LLM LLAMA     | MSE |
+  |                    | NAE |
   
 - Comparison of Model Performance and Computing Time in Predicting Logins on the SIS Platform
 
