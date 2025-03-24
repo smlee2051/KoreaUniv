@@ -31,7 +31,7 @@ The following models were used in this study:
   - LLMTIME
   - Time-LLM
 
-## Empirical data study
+## Real Data Analysis
 
 ### **📂 Dataset Description**
 This study utilizes **login frequency data** collected from a LMS and a SIS. 
@@ -97,8 +97,13 @@ Detailed tuning logs and configurations are available in:
 - **[`SIS/val_losses_test_Informer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Informer.txt)** → SIS tuning results for Informer
 - **[`SIS/val_losses_test_Autoformer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Autoformer.txt)** → SIS tuning results for Autoformer
 
-### **📌 Results & Discussion**
-- Table of Performance Comparison
+### **📌 Results**
+- Comparison of Model Performance and Computing Time in Predicting Logins on the LMS Platform
+  | Models  | Performance indicator | Mean of 7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing time (min) |
+  |---------------|-----------------------|----------------|-------|-------|-------|-------|-------|-------|-------|----------------------|
+  | Transformer
+  
+- Comparison of Model Performance and Computing Time in Predicting Logins on the SIS Platform
 
 ## Conclusion
 contents
