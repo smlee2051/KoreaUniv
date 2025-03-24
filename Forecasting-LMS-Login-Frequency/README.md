@@ -20,13 +20,13 @@ contents
 We evaluate the performance of multiple machine learning models for login frequency forecasting.
 The following models were used in this study:
 
-- **Transformer-Based Time Series Forecasting Models:**
+- **Transformer-Based Time Series Models:**
   - Transformer
   - Reformer
   - Informer
   - Autoformer
     
-- **LLM-Based Time Series Forecasting Models:**
+- **LLM-Based Time Series Models:**
   - PromptCast
   - LLMTIME
   - Time-LLM
