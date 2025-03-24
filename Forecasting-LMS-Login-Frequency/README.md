@@ -47,7 +47,6 @@ Due to privacy regulations, this dataset **cannot be publicly shared**.
 ## **🔧 Experimental Setup**
 To ensure the reproducibility of our results, the following computing environment is used:
 
-- **Computing Environment:** 
 - **GPU:** 2-NVIDIA-RTX-A6000
 - **CPU:** 16-core
 - **RAM:** 64GB
