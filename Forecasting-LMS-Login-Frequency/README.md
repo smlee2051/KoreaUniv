@@ -102,7 +102,7 @@ Detailed tuning logs and configurations are available in:
   <details>
   <summary>Click to show table</summary>
 
-  | Models             | Performance indicator | Mean of 7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing time (min) |
+  | Models             | Performance indicator | Mean<br>of<br>7 days | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Computing<br>time<br>(min) |
   |--------------------|-----|------ |-------|-------|-------|-------|-------|-------|-------|-----------|
   | Transformer        | MSE | 1.474 | 1.036 | 0.849 | 1.243 | 2.143 | 1.840 | 1.893 | 1.316 |  1375.333 |
   |                    | NAE | 0.670 | 0.558 | 0.457 | 0.596 | 0.917 | 0.823 | 0.698 | 0.643 |           |
