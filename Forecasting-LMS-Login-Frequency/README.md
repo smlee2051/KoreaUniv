@@ -128,7 +128,6 @@ Detailed tuning logs and configurations are available in:
   | Time-LLM LLAMA     | MSE | 1.849 | 1.201 | 0.954 | 1.505 | 2.989 | 2.425 | 2.209 | 1.660 | 88.267    |
   |                    | NAE | 0.686 | 0.53 | 0.411 | 0.651 | 0.977 | 0.844 | 0.704 | 0.686 |            |
   
-  </details>
 - Comparison of Model Performance and Computing Time in Predicting Logins on the SIS Platform
   <details>
   <summary>Click to show table</summary>
@@ -156,7 +155,6 @@ Detailed tuning logs and configurations are available in:
   | Time-LLM LLAMA     | MSE | 1.445 | 1.008 | 0.748 | 1.205 | 2.478 | 1.948 | 1.453 | 1.271 | 97.350   |
   |                    | NAE | 0.651 | 0.529 | 0.377 | 0.610 | 0.924 | 0.799 | 0.675 | 0.642 |          |
 
-  <details>
 ## Conclusion
 1. Transformer-based models outperform LLM-based models in predictive accuracy; however, they require significantly longer computational time.
 2. Within LLM-based models, Time-LLM demonstrates the highest predictive accuracy.
