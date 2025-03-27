@@ -99,8 +99,7 @@ Detailed tuning logs and configurations are available in:
   - **[`SIS/val_losses_test_Informer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Informer.txt)** → SIS tuning results for Informer
   - **[`SIS/val_losses_test_Autoformer.txt`](Results/Hyperparameter_Tuning/SIS/val_losses_test_Autoformer.txt)** → SIS tuning results for Autoformer
     
-  <details>
-  
+
 ### **📌 Results**
 - Comparison of Model Performance and Computing Time in Predicting Logins on the LMS Platform
   <details>
