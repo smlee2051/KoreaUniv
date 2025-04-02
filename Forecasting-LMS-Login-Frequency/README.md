@@ -161,11 +161,42 @@ Detailed tuning logs and configurations are available in:
 3. In LLMTime, GPT-3.5 outperforms GPT-4o in both predictive accuracy and computational efficiency.
 4. The daily login prediction analysis reveals no consistent patterns across models or datasets.
 
-## Open-Source Code Usage
-This project incorporates open-source code from the following repositories:
+## Model Groups and Source Repositories
 
-- **[Autoformer](https://github.com/thuml/Autoformer)** - Licensed under **MIT License**.  
-- **[LLMTime](https://github.com/ngruver/LLMTime)** - Licensed under **MIT License**.  
-- **[Time-llm](https://github.com/KimMeen/Time-llm)** -Licensed under **Apache License 2.0**.  
+This repository organizes time series forecasting models into three experimental groups.  
+Each group is based on an open-source GitHub repository, and has been modified for unified experimentation and benchmarking.
 
-We acknowledge the authors of these repositories for their contributions.
+### 🔹 models_group1 – Transformer-based
+**Source Repository:** [Autoformer (THUML)](https://github.com/thuml/Autoformer)  
+**License:** MIT License
+
+**Included Models:**
+- Transformer
+- Reformer
+- Informer
+- Autoformer
+
+---
+
+### 🔹 models_group2 – LLM-based
+**Source Repository:** [LLMTime](https://github.com/ngruver/LLMTime)  
+**License:** MIT License
+
+**Included Models:**
+- Promptcast
+- LLMTime
+
+---
+
+### 🔹 models_group3 – LLM-based
+**Source Repository:** [Time-LLM (KimMeen)](https://github.com/KimMeen/Time-llm)  
+**License:** Apache License 2.0
+
+**Included Models:**
+- Time-llm
+
+---
+
+### 📜 License Notice
+This repository contains modified versions of the original code under their respective open-source licenses.  
+Please refer to the original repositories for full license details.
