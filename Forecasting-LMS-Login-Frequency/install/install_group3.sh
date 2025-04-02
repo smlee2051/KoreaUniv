@@ -1,10 +1,6 @@
-#!/bin/bash
-
-# 1. Conda 환경 생성
 conda create -n time_llm python=3.11 -y
 conda activate time_llm
 
-# 2. pip 설치 패키지
 pip install torch==2.2.2
 pip install accelerate==0.28.0
 pip install einops==0.7.0
