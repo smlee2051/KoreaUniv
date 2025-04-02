@@ -221,7 +221,7 @@ We have made the following modifications to support unified experimental setting
 
 All modified code follows the respective open-source licenses and has been adapted for reproducibility across model groups.
 
-### 📜 License Notice
+## 📜 License Notice
 This repository includes modified components from the following open-source projects:  
 Autoformer (MIT License), LLMTime (MIT License), and Time-LLM (Apache 2.0).  
 For license details, refer to each repository listed in the sections above.
