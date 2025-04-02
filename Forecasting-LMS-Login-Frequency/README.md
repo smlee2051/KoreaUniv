@@ -187,7 +187,7 @@ Each group is based on an open-source GitHub repository, and has been modified f
 - LLMTime
 
 ### 🔹 models_group3 – LLM-based
-**Source Repository:** [Time-LLM (KimMeen)](https://github.com/KimMeen/Time-llm)  
+**Source Repository:** [Time-llm (KimMeen)](https://github.com/KimMeen/Time-llm)  
 **License:** Apache License 2.0
 
 **Included Models:**
