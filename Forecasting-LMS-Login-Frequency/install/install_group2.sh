@@ -1,5 +1,5 @@
-conda create -n llmtime python=3.9
-conda activate llmtime
+conda create -n models_group2 python=3.9
+conda activate models_group2
 pip install numpy
 pip install -U jax[cpu] # we don't need GPU for jax
 pip install torch --index-url https://download.pytorch.org/whl/cu118
