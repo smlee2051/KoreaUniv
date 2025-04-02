@@ -29,7 +29,7 @@ The models considered in this study include the following:
 - **LLM-Based Time Series Models:**
   - Promptcast
   - LLMTime
-  - Time-llm
+  - Time-LLM
 
 ## Real Data Analysis
 
@@ -121,11 +121,11 @@ Detailed tuning logs and configurations are available in:
   |                    | NAE | 0.766 | 0.690 | 0.641 | 0.782 | 0.957 | 0.861 | 0.744 | 0.686 |           |
   | LLMTime GPT-4o     | MSE | 2.368 | 2.160 | 1.657 | 2.478 | 3.031 | 2.636 | 2.556 | 2.060 | 35.133    |
   |                    | NAE | 0.884 | 0.898 | 0.703 | 0.875 | 0.998 | 0.929 | 0.862 | 0.921 |           |
-  | Time-llm BERT      | MSE | 1.855 | 1.221 | 0.945 | 1.480 | 3.031 | 2.419 | 2.234 | 1.651 | 15.850    |
+  | Time-LLM BERT      | MSE | 1.855 | 1.221 | 0.945 | 1.480 | 3.031 | 2.419 | 2.234 | 1.651 | 15.850    |
   |                    | NAE | 0.689 | 0.538 | 0.409 | 0.643 | 0.988 | 0.845 | 0.710 | 0.69 |            |
-  | Time-llm GPT-2     | MSE | 1.855 | 1.203 | 0.930 | 1.507 | 3.014 | 2.454 | 2.236 | 1.643 | 15.817    |
+  | Time-LLM GPT-2     | MSE | 1.855 | 1.203 | 0.930 | 1.507 | 3.014 | 2.454 | 2.236 | 1.643 | 15.817    |
   |                    | NAE | 0.688 | 0.53 | 0.406 | 0.649 | 0.986 | 0.844 | 0.714 | 0.684 |            |
-  | Time-llm LLAMA     | MSE | 1.849 | 1.201 | 0.954 | 1.505 | 2.989 | 2.425 | 2.209 | 1.660 | 88.267    |
+  | Time-LLM LLAMA     | MSE | 1.849 | 1.201 | 0.954 | 1.505 | 2.989 | 2.425 | 2.209 | 1.660 | 88.267    |
   |                    | NAE | 0.686 | 0.53 | 0.411 | 0.651 | 0.977 | 0.844 | 0.704 | 0.686 |            |
   
 - Comparison of Model Performance and Computing Time in Predicting Logins on the SIS Platform
@@ -148,16 +148,16 @@ Detailed tuning logs and configurations are available in:
   |                    | NAE | 0.752 | 0.676 | 0.607 | 0.749 | 0.947 | 0.870 | 0.743 | 0.672 |          |
   | LLMTime GPT-4o     | MSE | 1.944 | 1.696 | 1.406 | 1.690 | 2.623 | 2.190 | 2.324 | 1.676 | 32.483   |
   |                    | NAE | 0.828 | 0.800 | 0.657 | 0.808 | 0.975 | 0.877 | 0.854 | 0.823 |          |
-  | Time-llm BERT      | MSE | 1.459 | 1.035 | 0.767 | 1.187 | 2.508 | 1.947 | 1.454 | 1.312 | 19.617   |
+  | Time-LLM BERT      | MSE | 1.459 | 1.035 | 0.767 | 1.187 | 2.508 | 1.947 | 1.454 | 1.312 | 19.617   |
   |                    | NAE | 0.658 | 0.543 | 0.394 | 0.601 | 0.935 | 0.793 | 0.676 | 0.664 |          |
-  | Time-llm GPT-2     | MSE | 1.442 | 1.005 | 0.760 | 1.186 | 2.494 | 1.943 | 1.455 | 1.252 | 16.367   |
+  | Time-LLM GPT-2     | MSE | 1.442 | 1.005 | 0.760 | 1.186 | 2.494 | 1.943 | 1.455 | 1.252 | 16.367   |
   |                    | NAE | 0.649 | 0.533 | 0.387 | 0.595 | 0.928 | 0.792 | 0.675 | 0.635 |          |
-  | Time-llm LLAMA     | MSE | 1.445 | 1.008 | 0.748 | 1.205 | 2.478 | 1.948 | 1.453 | 1.271 | 97.350   |
+  | Time-LLM LLAMA     | MSE | 1.445 | 1.008 | 0.748 | 1.205 | 2.478 | 1.948 | 1.453 | 1.271 | 97.350   |
   |                    | NAE | 0.651 | 0.529 | 0.377 | 0.610 | 0.924 | 0.799 | 0.675 | 0.642 |          |
 
 ## Conclusion
 1. Transformer-based models outperform LLM-based models in predictive accuracy; however, they require significantly longer computational time.
-2. Within LLM-based models, Time-llm demonstrates the highest predictive accuracy.
+2. Within LLM-based models, Time-LLM demonstrates the highest predictive accuracy.
 3. In LLMTime, GPT-3.5 outperforms GPT-4o in both predictive accuracy and computational efficiency.
 4. The daily login prediction analysis reveals no consistent patterns across models or datasets.
 
@@ -187,11 +187,11 @@ Each group is based on an open-source GitHub repository, and has been modified f
 - LLMTime
 
 #### 🔹 models_group3 – LLM-based
-**Source Repository:** [Time-llm](https://github.com/KimMeen/Time-llm)  
+**Source Repository:** [Time-LLM](https://github.com/KimMeen/Time-LLM)  
 **License:** Apache License 2.0
 
 **Included Models:**
-- Time-llm
+- Time-LLM
 
 ## ✏️ Modified Code Summary
 
@@ -199,7 +199,7 @@ This repository is based on the following open-source projects:
 
 - [Autoformer](https://github.com/thuml/Autoformer) – MIT License
 - [LLMTime](https://github.com/ngruver/LLMTime) – MIT License
-- [Time-LLM](https://github.com/KimMeen/Time-llm) – Apache License 2.0
+- [Time-LLM](https://github.com/KimMeen/Time-LLM) – Apache License 2.0
 
 We have made the following modifications to support unified experimental settings and evaluation:
 
