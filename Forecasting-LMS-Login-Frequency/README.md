@@ -165,7 +165,7 @@ Detailed tuning logs and configurations are available in:
 
 ## 📁 Code Structure: Model Groups and Source Repositories
 
-This repository organizes time series forecasting models into three experimental groups.  
+This repository organizes time series models into three experimental groups.  
 Each group is based on an open-source GitHub repository, and has been modified for unified experimentation and benchmarking.
 
 ### 🔹 models_group1 – Transformer-based
