@@ -169,7 +169,7 @@ This repository organizes time series forecasting models into three experimental
 Each group is based on an open-source GitHub repository, and has been modified for unified experimentation and benchmarking.
 
 ### 🔹 models_group1 – Transformer-based
-**Source Repository:** [Autoformer (THUML)](https://github.com/thuml/Autoformer)  
+**Source Repository:** [Autoformer](https://github.com/thuml/Autoformer)  
 **License:** MIT License
 
 **Included Models:**
@@ -187,7 +187,7 @@ Each group is based on an open-source GitHub repository, and has been modified f
 - LLMTime
 
 ### 🔹 models_group3 – LLM-based
-**Source Repository:** [Time-llm (KimMeen)](https://github.com/KimMeen/Time-llm)  
+**Source Repository:** [Time-llm](https://github.com/KimMeen/Time-llm)  
 **License:** Apache License 2.0
 
 **Included Models:**
