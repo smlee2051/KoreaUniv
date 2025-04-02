@@ -1,7 +1,7 @@
 conda create -n models_group2 python=3.9
 conda activate models_group2
 pip install numpy
-pip install -U jax[cpu] # we don't need GPU for jax
+pip install -U jax[cpu]
 pip install torch --index-url https://download.pytorch.org/whl/cu118
 pip install openai==0.28.1
 pip install tiktoken
