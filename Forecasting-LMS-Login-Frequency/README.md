@@ -223,6 +223,7 @@ To run experiments, use the `run.sh` script by specifying a model group ID and a
 
 # Run Time-LLM with LLAMA backbone
 ./run.sh 3 LLAMA
+```
 
 ---
 
