@@ -190,7 +190,8 @@ We have made the following modifications to support unified experimental setting
 - **models_group3 (based on Time-LLM)**  
   - `data_provider/data_factory.py`: Modified `data_provider` function for flexible dataset input and batch handling
 
-All modified code follows the respective open-source licenses and has been adapted for reproducibility across model groups.
+All modified code follows the respective open-source licenses.
+In particular, `main.py` in each model group was adjusted to support unified execution with our dataset structure and configurations.
 
 ## 📜 License Notice
 This repository includes modified components from the following open-source projects:  
