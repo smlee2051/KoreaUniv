@@ -34,8 +34,7 @@ This study utilizes **login frequency data** collected from a LMS and a SIS.
 - **Number of Users:** 832
 - **Feature Description:** Login frequency per user, Timestamps
   
-##### **Data Availability:**
-Due to privacy regulations, this dataset **cannot be publicly shared**.
+##### **Data Availability:** Due to privacy regulations, this dataset **cannot be publicly shared**.
 
 ### **🔧 Experimental Setup**
 To ensure the reproducibility of our results, the following computing environment is used:
