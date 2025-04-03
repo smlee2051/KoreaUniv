@@ -188,7 +188,7 @@ We have made the following modifications to support unified experimental setting
 
 - **models_group1 (based on Autoformer)**  
   - `data_provider/data_loader.py`:
-    - Added or modified `Dataset_Custom`, `Dataset_Pred` classes for custom data handling
+    Added or modified `Dataset_Custom`, `Dataset_Pred` classes for custom data handling
   - `exp/exp_main.py`:
     - Implemented or extended `Exp_Main` class to control model training and evaluation
 
