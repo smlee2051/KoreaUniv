@@ -162,7 +162,7 @@ This repository organizes time series models into three experimental groups.
 Each group is based on an open-source GitHub repository, and has been modified for unified experimentation and benchmarking.
 
 - **models_group1 – Transformer-based**  
- - Source Repository: [Autoformer](https://github.com/thuml/Autoformer)  
+  - Source Repository: [Autoformer](https://github.com/thuml/Autoformer)  
  - **License:** MIT License
  - **Included Models:** Transformer, Reformer, Informer, Autoformer
 
