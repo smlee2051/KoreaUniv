@@ -1,5 +1,5 @@
-conda create -n models_group2 python=3.9
-conda activate models_group2
+conda create -n models_group2_env python=3.9
+conda activate models_group2_env
 
 pip install numpy
 pip install -U jax[cpu]
