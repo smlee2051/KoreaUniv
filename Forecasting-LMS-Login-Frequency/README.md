@@ -173,18 +173,14 @@ Each group is based on an open-source GitHub repository, and has been modified f
 **License:** MIT License
 
 **Included Models:**
-- Transformer
-- Reformer
-- Informer
-- Autoformer
+- Transformer, Reformer, Informer, Autoformer
 
 #### 🔹 models_group2 – LLM-based
 **Source Repository:** [LLMTime](https://github.com/ngruver/LLMTime)  
 **License:** MIT License
 
 **Included Models:**
-- Promptcast
-- LLMTime
+- Promptcast, LLMTime
 
 #### 🔹 models_group3 – LLM-based
 **Source Repository:** [Time-LLM](https://github.com/KimMeen/Time-LLM)  
