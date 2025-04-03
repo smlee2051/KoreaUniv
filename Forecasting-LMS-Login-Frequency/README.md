@@ -203,7 +203,7 @@ For license details, refer to each repository listed in the sections above.
 To run experiments, use the `run.sh` script by specifying a model group ID and a model name.
 
 - **GROUP_ID**:
-  - `1` → `models_group1`: Transformer-based models (Autoformer, Informer, Reformer, etc.)
+  - `1` → `models_group1`: Transformer-based models (Autoformer, Informer, Reformer)
   - `2` → `models_group2`: LLM-based models (LLMTime GPT-3.5, LLMTime GPT-4o, PromptCast GPT-3.5)
   - `3` → `models_group3`: **Time-LLM** models using different LLM backbones (LLAMA, GPT2, BERT)
 
