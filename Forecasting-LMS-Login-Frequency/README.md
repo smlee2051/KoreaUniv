@@ -155,7 +155,7 @@ Detailed tuning logs and configurations are available in:
 
 ---
 
-## 📁 Code Structure: Model Groups and Source Repositories
+## Code Structure: Model Groups and Source Repositories
 
 This repository organizes time series models into three experimental groups.  
 Each group is based on an open-source GitHub repository, and has been modified for unified experimentation and benchmarking.
@@ -175,7 +175,7 @@ Each group is based on an open-source GitHub repository, and has been modified f
   - **License:** Apache License 2.0
   - **Included Models:** Time-LLM
 
-## ✏️ Modified Code Summary
+## Modified Code Summary
 
 We have made the following modifications to support unified experimental settings and evaluation:
 
@@ -193,12 +193,12 @@ We have made the following modifications to support unified experimental setting
 All modified code follows the respective open-source licenses.
 In particular, `main.py` in each model group was adjusted to support unified execution with our dataset structure and configurations.
 
-## 📜 License Notice
+## License Notice
 This repository includes modified components from the following open-source projects:  
 Autoformer (MIT License), LLMTime (MIT License), and Time-LLM (Apache 2.0).  
 For license details, refer to each repository listed in the sections above.
 
-## 🔧 How to Run (via `run.sh`)
+## How to Run (via `run.sh`)
 
 To run experiments, use the `run.sh` script by specifying a model group ID and a model name.
 
@@ -212,7 +212,7 @@ To run experiments, use the `run.sh` script by specifying a model group ID and a
   - For group 3, this selects the **LLM backbone** used by Time-LLM.
   - If the name contains spaces, wrap it in quotes (`"`).
 
-### ✅ Example usage
+### Example usage
 
 ```bash
 # Run Autoformer in group 1
