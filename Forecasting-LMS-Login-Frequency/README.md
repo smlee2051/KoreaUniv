@@ -198,5 +198,31 @@ This repository includes modified components from the following open-source proj
 Autoformer (MIT License), LLMTime (MIT License), and Time-LLM (Apache 2.0).  
 For license details, refer to each repository listed in the sections above.
 
+## 🔧 How to Run (via `run.sh`)
+
+To run experiments, use the `run.sh` script by specifying a model group ID and a model name.
+
+- **GROUP_ID**:
+  - `1` → `models_group1`: Transformer-based models (Autoformer, Informer, Reformer, etc.)
+  - `2` → `models_group2`: LLM-based models (LLMTime GPT-3.5, LLMTime GPT-4o, PromptCast GPT-3.5)
+  - `3` → `models_group3`: **Time-LLM** models using different LLM backbones (LLAMA, GPT2, BERT)
+
+- **MODEL_NAME**:
+  - The name of the model to run.
+  - For group 3, this selects the **LLM backbone** used by Time-LLM.
+  - If the name contains spaces, wrap it in quotes (`"`).
+
+### ✅ Example usage
+
+```bash
+# Run Autoformer in group 1
+./run.sh 1 Autoformer
+
+# Run LLMTime GPT-3.5 in group 2 (quotes required)
+./run.sh 2 "LLMTime GPT-3.5"
+
+# Run Time-LLM with LLAMA backbone
+./run.sh 3 LLAMA
+
 ---
 
