@@ -196,19 +196,19 @@ This repository is based on the following open-source projects:
 
 We have made the following modifications to support unified experimental settings and evaluation:
 
-### 🔹 models_group1 (based on Autoformer)
+#### 🔹 models_group1 (based on Autoformer)
 - `data_provider/data_loader.py`:
   - Added or modified `Dataset_Custom`, `Dataset_Pred` classes for custom data handling
 - `exp/exp_main.py`:
   - Implemented or extended `Exp_Main` class to control model training and evaluation
 
-### 🔹 models_group2 (based on LLMTime)
+#### 🔹 models_group2 (based on LLMTime)
 - `models/gpt.py`:
   - Implemented `gpt_completion_fn`, `gpt_nll_fn` for GPT-based inference and loss
 - `models/llms.py`:
   - Refactored main LLM interface functions
 
-### 🔹 models_group3 (based on Time-LLM)
+#### 🔹 models_group3 (based on Time-LLM)
 - `data_provider/data_factory.py`:
   - Modified `data_provider` function for flexible dataset input and batch handling
 
