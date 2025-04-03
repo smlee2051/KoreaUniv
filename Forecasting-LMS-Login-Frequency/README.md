@@ -1,4 +1,4 @@
-<h1 align="center">Comparison of Transformer and LLM Performance and <br> Forecasting LMS Login Frequency</h1>
+<h1 align="center">Predicting LMS Login Frequency using Transformer- and LLM-Based Time Series Models</h1>
 
 <p align="center">
   <strong>Authors:</strong>  
