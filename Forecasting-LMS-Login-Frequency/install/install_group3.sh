@@ -1,5 +1,5 @@
-conda create -n models_group3 python=3.11 -y
-conda activate models_group3
+conda create -n models_group3_env python=3.11 -y
+conda activate models_group3_env
 
 pip install torch==2.2.2
 pip install accelerate==0.28.0
