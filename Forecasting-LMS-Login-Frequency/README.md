@@ -20,16 +20,9 @@ This study introduces a Transformer-based time series model and an LLM-based tim
 We evaluate the performance of several machine learning models for login frequency forecasting.
 The models considered in this study include the following:
 
-- **Transformer-Based Time Series Models:**
-  - Transformer
-  - Reformer
-  - Informer
-  - Autoformer
+- **Transformer-Based Time Series Models:** Transformer, Reformer, Informer, Autoformer
     
-- **LLM-Based Time Series Models:**
-  - Promptcast
-  - LLMTime
-  - Time-LLM
+- **LLM-Based Time Series Models:** Promptcast, LLMTime, Time-LLM
 
 ## Real Data Analysis
 
