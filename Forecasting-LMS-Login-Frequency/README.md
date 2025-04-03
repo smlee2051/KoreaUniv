@@ -163,18 +163,18 @@ Each group is based on an open-source GitHub repository, and has been modified f
 
 - **models_group1 – Transformer-based**  
   - Source Repository: [Autoformer](https://github.com/thuml/Autoformer)  
- - **License:** MIT License
- - **Included Models:** Transformer, Reformer, Informer, Autoformer
+  - **License:** MIT License
+  - **Included Models:** Transformer, Reformer, Informer, Autoformer
 
 - **models_group2 – LLM-based**  
- - **Source Repository:** [LLMTime](https://github.com/ngruver/LLMTime)  
- - **License:** MIT License
- - **Included Models:** Promptcast, LLMTime
+  - **Source Repository:** [LLMTime](https://github.com/ngruver/LLMTime)  
+  - **License:** MIT License
+  - **Included Models:** Promptcast, LLMTime
 
 - **models_group3 – LLM-based**  
- - **Source Repository:** [Time-LLM](https://github.com/KimMeen/Time-LLM)  
- - **License:** Apache License 2.0
- - **Included Models:** Time-LLM
+  - **Source Repository:** [Time-LLM](https://github.com/KimMeen/Time-LLM)  
+  - **License:** Apache License 2.0
+  - **Included Models:** Time-LLM
 
 ## ✏️ Modified Code Summary
 
@@ -187,20 +187,20 @@ This repository is based on the following open-source projects:
 We have made the following modifications to support unified experimental settings and evaluation:
 
 - **models_group1 (based on Autoformer)**  
- - `data_provider/data_loader.py`:
-  - Added or modified `Dataset_Custom`, `Dataset_Pred` classes for custom data handling
- - `exp/exp_main.py`:
-  - Implemented or extended `Exp_Main` class to control model training and evaluation
+  - `data_provider/data_loader.py`:
+    - Added or modified `Dataset_Custom`, `Dataset_Pred` classes for custom data handling
+  - `exp/exp_main.py`:
+    - Implemented or extended `Exp_Main` class to control model training and evaluation
 
 - **models_group2 (based on LLMTime)**  
- - `models/gpt.py`:
-  - Implemented `gpt_completion_fn`, `gpt_nll_fn` for GPT-based inference and loss
- - `models/llms.py`:
-  - Refactored main LLM interface functions
+  - `models/gpt.py`:
+    - Implemented `gpt_completion_fn`, `gpt_nll_fn` for GPT-based inference and loss
+  - `models/llms.py`:
+    - Refactored main LLM interface functions
 
 - **models_group3 (based on Time-LLM)**  
- - `data_provider/data_factory.py`:
-  - Modified `data_provider` function for flexible dataset input and batch handling
+  - `data_provider/data_factory.py`:
+    - Modified `data_provider` function for flexible dataset input and batch handling
 
 All modified code follows the respective open-source licenses and has been adapted for reproducibility across model groups.
 
