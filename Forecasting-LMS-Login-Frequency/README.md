@@ -178,12 +178,6 @@ Each group is based on an open-source GitHub repository, and has been modified f
 
 ## ✏️ Modified Code Summary
 
-This repository is based on the following open-source projects:
-
-- [Autoformer](https://github.com/thuml/Autoformer) – MIT License
-- [LLMTime](https://github.com/ngruver/LLMTime) – MIT License
-- [Time-LLM](https://github.com/KimMeen/Time-LLM) – Apache License 2.0
-
 We have made the following modifications to support unified experimental settings and evaluation:
 
 - **models_group1 (based on Autoformer)**  
