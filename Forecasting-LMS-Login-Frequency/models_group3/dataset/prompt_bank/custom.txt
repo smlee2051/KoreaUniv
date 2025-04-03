@@ -1,0 +1,1 @@
+This dataset measures the daily login counts of learners on an LMS (Learning Management System), covering a total of 77 days from September 15 to November 30. The training, validation, and test sets consist of 63, 7, and 7 days, respectively.
