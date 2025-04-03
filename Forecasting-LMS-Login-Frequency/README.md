@@ -172,8 +172,7 @@ Each group is based on an open-source GitHub repository, and has been modified f
 **Source Repository:** [Autoformer](https://github.com/thuml/Autoformer)  
 **License:** MIT License
 
-**Included Models:**
-- Transformer, Reformer, Informer, Autoformer
+**Included Models:** Transformer, Reformer, Informer, Autoformer
 
 #### 🔹 models_group2 – LLM-based
 **Source Repository:** [LLMTime](https://github.com/ngruver/LLMTime)  
