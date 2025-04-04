@@ -1,0 +1,15 @@
+numpy
+openai==0.28.1
+tiktoken
+tqdm
+matplotlib
+pandas<2.0.0
+darts
+gpytorch
+transformers
+datasets
+multiprocess
+SentencePiece
+accelerate
+gdown
+mistralai
