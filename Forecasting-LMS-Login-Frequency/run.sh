@@ -16,33 +16,35 @@ if [ $# -lt 2 ]; then
 fi
 
 GROUP_ID=$1
-MODEL_NAME="${@:2}" 
+MODEL_NAME="${@:2}"
+
+ENV_DIR="/path/to/envs"
 
 if [ "$GROUP_ID" == "1" ]; then
     echo "========== Running Group 1: models_group1 =========="
     cd models_group1
-    source ~/anaconda3/etc/profile.d/conda.sh
-    conda activate models_group1_env
+    source "$ENV_DIR/models_group1_env/bin/activate"
     echo "Running model: $MODEL_NAME"
     python main.py "$MODEL_NAME"
+    deactivate
     cd ..
 
 elif [ "$GROUP_ID" == "2" ]; then
     echo "========== Running Group 2: models_group2 =========="
     cd models_group2
-    source ~/anaconda3/etc/profile.d/conda.sh
-    conda activate models_group2_env
+    source "$ENV_DIR/models_group2_env/bin/activate"
     echo "Running model: $MODEL_NAME"
     python main.py "$MODEL_NAME"
+    deactivate
     cd ..
 
 elif [ "$GROUP_ID" == "3" ]; then
     echo "========== Running Group 3: models_group3 =========="
     cd models_group3
-    source ~/anaconda3/etc/profile.d/conda.sh
-    conda activate models_group3_env
+    source "$ENV_DIR/models_group3_env/bin/activate"
     echo "Running LLM model: $MODEL_NAME"
     python main.py "$MODEL_NAME"
+    deactivate
     cd ..
 
 else
