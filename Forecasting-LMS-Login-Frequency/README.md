@@ -9,8 +9,8 @@
 
 <p align="center">
   <strong>Published in:</strong>  
-  <br> <em>name</em>  
-  <br> [View Paper](https://)
+  <br> <em>Journal of the Korean Data & Information Science Society, 2025</em>  
+  <br> <a href="https://doi.org/10.7465/jkdi.2025.36.3.543">View Paper</a>
 </p>
 
 ## Overview
